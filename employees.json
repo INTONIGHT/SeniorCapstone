@@ -1,0 +1,23 @@
+{
+    "Employee Name":"test",
+    "employee days Available":
+    {
+        "Monday":true,
+        "Tuesday":true,
+        "Wednesday":false,
+        "Thursday":false,
+        "Friday":true,
+        "Saturday":true
+    },
+    "employee times available":
+    {
+        "Monday":"5 9",
+        "Tuesday":"6pm-9pm",
+        "Wednesday":"6pm-9pm",
+        "Thursday":"6pm=-9pm",
+        "Friday":"6-9pm",
+        "Saturday":"6-9pm"
+
+    },
+    "Employee time disered":"min-25, max-30"
+}

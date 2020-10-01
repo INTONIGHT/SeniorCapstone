@@ -1,0 +1,13 @@
+{
+    "minNumber of Employees":"2",
+    "hours required per day":
+    {
+        "Monday":"75",
+        "Tuesday":"75",
+        "Wednesday":"75",
+        "Thursday":"75",
+        "Friday":"90",
+        "Saturday":"90",
+        "Sunday":"105"
+    }
+}
