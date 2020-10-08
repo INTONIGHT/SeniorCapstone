@@ -7,12 +7,13 @@ function createSpreadsheet(){
   request.open("GET","store.json",true);
   
   request.onreadystatechange = function(){
-      if(request.readyState === 4 && request.status ===20){
+     if(request.readyState === 4 && request.status ===20){
         
         let my_JSON_object = JSON.parse(request.responseText);
         console.log(my_JSON_object);
       }
   }
+  
 }
 
 function adjustSpreadsheet(){
