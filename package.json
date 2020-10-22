@@ -1,0 +1,22 @@
+{
+  "name": "senior-capstone",
+  "version": "1.0.0",
+  "description": "My senior capstone project",
+  "main": "home.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INTONIGHT/SeniorCapstone.git"
+  },
+  "author": "Tyler Throop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/INTONIGHT/SeniorCapstone/issues"
+  },
+  "homepage": "https://github.com/INTONIGHT/SeniorCapstone#readme",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
+}
