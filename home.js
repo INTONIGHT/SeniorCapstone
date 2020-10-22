@@ -13,7 +13,7 @@ function createSpreadsheet(){
         console.log(my_JSON_object);
       }
   }
-  
+  request.send();
 }
 
 function adjustSpreadsheet(){
