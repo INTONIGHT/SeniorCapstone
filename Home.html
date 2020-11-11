@@ -10,13 +10,25 @@
         .third{
             width :10%
         }
+        #main{
+            display:block
+        }
     </style>
     <main>
         <script src="home.js"></script>
+        <div id="main">
         <h1> Hi welcome To the scheduling app</h1><br><br><br>
         <h3> Click on the button to start off</h3>
-        <button onClick ="createSpreadsheet()"> Create Spreadsheet</button>
+        <button onClick ="createSpreadsheet(); hideSpreadsheet();"> 
+            Create Spreadsheet
+        </button>
+    </div>
         
     </main>
+    <script>
+        function hideSpreadsheet(){
+            document.getElementById("main").style.display ="none";
+        }
+    </script>
 </html>
 
