@@ -16,7 +16,7 @@ function createSpreadsheet() {
   // Send the request
   request.send();
   //attempting to create a chart here
- 
+
 }
 
 function adjustSpreadsheet(){
