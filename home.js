@@ -16,7 +16,7 @@ function createSpreadsheet() {
   // Send the request
   request.send();
   //attempting to create a chart here
-  JSC.Chart("chartDiv", {
+  new JSC.Chart("chartDiv", {
     series: [
       {
         points: [{ x: "A", y: 10 }, { x: "B", y: 5 }]
