@@ -16,7 +16,23 @@ function createSpreadsheet() {
   // Send the request
   request.send();
   //attempting to create a chart here
+//look up schedule library for the schedule library if you want to use this later
+let later = require('later');
+let schedule = require('schedulejs');
+let tasks = [
+  {id: 1, duration: 60, available: later.parse.text('every weekday')},
+  {id: 2, duration: 30, dependsOn: [1], resources: ['A']},
+  {id: 3, duration: 30, dependsOn: [1], resources: [['A','B']]}
+];
 
+// Define a set of resources
+let resources = [
+  {id: A},
+  {id: B, available: later.parse.text('after 10:00am and before 6:00pm')}
+];
+
+// Create the schedule for all of the tasks
+schedule.create(tasks, resources);
 }
 
 function adjustSpreadsheet(){
