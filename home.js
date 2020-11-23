@@ -16,7 +16,8 @@ function createSpreadsheet() {
   // Send the request
   request.send();
   //attempting to create a chart here
-//look up schedule library for the schedule library if you want to use this later
+
+//cant figure out how to use require here according to the documentations
 let later = require('later');
 let schedule = require('schedulejs');
 let tasks = [
